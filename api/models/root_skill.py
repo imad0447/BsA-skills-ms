@@ -2,7 +2,6 @@ from __future__ import annotations
 
 from typing import TYPE_CHECKING, Any
 
-from docutils.nodes import description
 from sqlalchemy import Column, ForeignKey, Integer, String, Text
 from sqlalchemy.orm import Mapped, relationship
 
